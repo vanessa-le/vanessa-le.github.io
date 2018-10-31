@@ -170,6 +170,7 @@ body {
 }
 
 .lightbox .lb-images .lb-slides .img-fill {
+	height: 40vw;
 	padding: 5px;
 }
 
