@@ -165,12 +165,12 @@ body {
 	margin-top: 2px;
 	display: block;
 	width: 100%;
-	padding: 0vw 5vw;
+	padding: 0vw;
 	hyphens: auto;
 }
 
 .lightbox .lb-images .lb-slides .img-fill {
-	height: 40vw;
+	height: 20vw;
 	padding: 5px;
 }
 
