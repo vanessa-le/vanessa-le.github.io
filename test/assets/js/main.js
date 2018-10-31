@@ -24,7 +24,7 @@ window.onload=function(){
       settings: {
         arrows: false,
         centerMode: true,
-        centerPadding: '50px',
+        centerPadding: '20px',
         slidesToShow: 1
       }
     }
