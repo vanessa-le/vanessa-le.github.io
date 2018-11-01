@@ -15,7 +15,7 @@ window.onload=function(){
       settings: {
         arrows: false,
         centerMode: true,
-        centerPadding: '150px',
+        centerPadding: '120px',
         slidesToShow: 1
       }
     },
@@ -24,7 +24,7 @@ window.onload=function(){
       settings: {
         arrows: false,
         centerMode: true,
-        centerPadding: '50px',
+        centerPadding: '10px',
         slidesToShow: 1
       }
     }
