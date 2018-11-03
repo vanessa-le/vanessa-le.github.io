@@ -1,7 +1,5 @@
 window.onload=function(){
 
-
-
   $slideshow = $('.lb-slides').slick({
   centerMode: true,
   centerPadding: '300px',
