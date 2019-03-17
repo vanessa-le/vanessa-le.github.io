@@ -1,5 +1,3 @@
-window.onload=function(){
-
 /*
      _ _      _       _
  ___| (_) ___| | __  (_)___
@@ -3011,5 +3009,3 @@ window.onload=function(){
     };
 
 }));
-
-};
