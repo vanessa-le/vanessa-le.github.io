@@ -186,8 +186,8 @@ body {
 }
 
 .lightbox .lb-images .lb-slides .img-fill {
-	height: 50vw;
-	padding: 2px;
+	width: 80vw;
+	padding: 1px;
 }
 
 .information, .contact {
