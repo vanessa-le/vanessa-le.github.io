@@ -157,7 +157,8 @@ margin-top: 40px;
 
 
 /* iPhone 6, 7, 8 ----------- */
-@media only screen and (min-device-width: 375px) and (max-device-height: 1024px) {
+@media only screen and (min-device-width: 375px) and (max-device-height: 736px) {
+/* Styles */
 
 body {
 	font-size: 14px;
@@ -185,8 +186,8 @@ body {
 }
 
 .lightbox .lb-images .lb-slides .img-fill {
-	width: 100%;
-	padding: 1px;
+	height: 50vw;
+	padding: 2px;
 }
 
 .information, .contact {
