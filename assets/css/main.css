@@ -87,6 +87,18 @@ i {
 	width: 100%;
 }
 
+.tag:hover {
+	font-style: italic;
+}
+
+.tag {
+  cursor: pointer;
+}
+
+.article-hide {
+  display:none; 
+}
+
 /*SLIDER*/
 
 .slider-first {

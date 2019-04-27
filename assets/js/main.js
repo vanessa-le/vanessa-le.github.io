@@ -28,11 +28,26 @@ window.onload=function(){
     }
   ]
 });
-     
-
-
 
   $('.lb-slides').click(function() {
     $(this).slick('slickNext');
   });
+
+  $('.t-research').click(function(){
+  $('.article').addClass('article-hide');
+  $('.a-research').removeClass('article-hide')
+});
+
+$('.t-exp').click(function(){
+  $('.article').addClass('article-hide');
+  $('.a-exp').removeClass('article-hide')
+});
+
+$('.t-wip').click(function(){
+  $('.article').addClass('article-hide');
+  $('.a-wip').removeClass('article-hide')
+});
+
+
+
 };
