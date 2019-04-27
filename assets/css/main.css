@@ -201,6 +201,10 @@ body {
 	width: 100%;
 }
 
+.container{
+	flex-wrap: nowrap;
+}
+
 }
 
 
