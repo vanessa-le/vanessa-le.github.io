@@ -60,6 +60,7 @@ i {
 
 .information {
 	margin-top: 60px;
+	line-height: 1.05em;
 }
 
 .ig{
@@ -78,17 +79,12 @@ i {
 }
 
 .caption-journal{
-	margin: 1vh 1.4vw 1vh;
+	margin: 0.4vh 0.2vw 0.6vh;
 	font-size: 16px;
-	hyphens: auto;
 }
 
 .container img{
 	width: 100%;
-}
-
-.tag:hover {
-	font-style: italic;
 }
 
 .tag {
