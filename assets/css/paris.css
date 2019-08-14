@@ -41,14 +41,23 @@ img {
 
 .pic1 img{
 	/*width: 20%;*/
-	height: 25vw;
+	height: 27vw;
 	image-orientation: from-image;
 }
 
 .pic2 img{
-	height: 27vw;
+	height: 25vw;
 	image-orientation: from-image;
 }
+
+.pic3 img{
+	height: 22vw;
+}
+
+.pic4 img{
+	height: 20vw;
+}
+
 
 .footer {
 	padding-top: 5vw;
