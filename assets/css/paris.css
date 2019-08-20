@@ -30,9 +30,13 @@ a:hover{
 }
 
 .text {
-	padding: 2vw;
+	padding: 1vw;
 	text-align: center;
+}
 
+.date {
+	padding-top: 4vh;
+	text-decoration: underline;
 }
 
 img {
@@ -40,14 +44,11 @@ img {
 }
 
 .pic1 img{
-	/*width: 20%;*/
 	height: 27vw;
-	image-orientation: from-image;
 }
 
 .pic2 img{
 	height: 25vw;
-	image-orientation: from-image;
 }
 
 .pic3 img{
@@ -60,16 +61,12 @@ img {
 
 
 .footer {
-	padding-top: 5vw;
+	padding-top: 10vh;
+	padding-bottom: 4vh;
 }
 
 FLEX
 
-.item {
-  height:100px;
-  border-right:1px solid black;
-  border-bottom:1px solid black;
-}
 
 .align-center {
   align-items:center;
