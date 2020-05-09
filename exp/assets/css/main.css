@@ -1,7 +1,7 @@
 body {
 	font-family: arial;
-	font-size: 20px;
-	background-color: oldlace;
+	font-size: 19px;
+	background-color: cornsilk;
 	hyphens: auto;
 }
 
@@ -11,6 +11,7 @@ a:hover {
 
 a:active {
 	font-style: italic;
+	color: purple;
 }
 
 i {
@@ -114,7 +115,7 @@ i {
 /*Experiment page*/
 
 .description {
-	font-size: 16px;
+	font-size: 19px;
 	margin-top: 60px;
 	line-height: 1.05;
 	width: 60vw;
