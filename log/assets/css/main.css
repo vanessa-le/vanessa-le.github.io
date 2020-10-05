@@ -1,0 +1,149 @@
+body {
+	font-family: monospace;
+	font-size: 1.2vw;
+	background-color: cornsilk;
+	hyphens: auto;
+}
+
+a:hover {
+	font-style: italic;
+}
+
+a:active {
+	font-style: italic;
+	color: purple;
+}
+
+i {
+	font-style: italic;
+}
+
+.pad {
+	padding: 1vw;
+}
+
+.margin {
+	margin-right: 180px;
+}
+
+.container .article {
+	  padding: 0vw 1vw;
+	  margin-bottom: 2vh;
+}
+
+.container .stack {
+	  padding: 0vw 32vw;
+	  margin-bottom: 2vh;
+}
+
+.margin-vertical {
+	margin-bottom: 4vh;
+}
+
+.header {
+    display: block;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+	z-index: 3;
+	height: 20px;
+}
+
+.footer {
+	position: fixed;    
+	display: block;
+	float: left;
+	text-align: left;
+	bottom: 1.2vh;
+	z-index: 3;
+}
+
+.name {
+	width:60%;
+	display: block;
+	float: left;
+	text-align: left;
+	vertical-align: top;
+}
+
+.navigation {
+	width:40%;
+	display: block;
+	float: left;
+	text-align: right;
+	vertical-align: top;
+}
+
+.container img{
+	width: 100%;
+}
+
+/* Hover Popover */
+
+.popover__wrapper {
+  	position: relative;
+  	display: inline-block;
+}
+
+.popover__content {
+	font-size: 0.9vw;
+	opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  left: 52vw;
+  top: 30vh;
+  transform: translate(0, 10px);
+  background-color: white;
+  padding: 0.5rem;
+  border: 0.5px solid black;
+  max-width: 18vw;
+  mix-blend-mode: normal;
+}
+
+.link {
+	color: blue;
+	text-decoration: underline;
+}
+
+.popover__content:before {
+  position: absolute;
+  z-index: -1;
+  content: "";
+  right: calc(50% -20px);
+  top: -8px;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+
+.popover__wrapper:hover .popover__content {
+  z-index: 10;
+  opacity: 1;
+  visibility: visible;
+  transform: translate(0, -20px);
+  transition: all 0.5s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+}
+
+.popover__message {
+  	text-align: left;
+}
+
+.indent  {
+	text-indent: 2vw;
+} 	
+
+/*Experiment page*/
+
+.description {
+	margin-top: 60px;
+	line-height: 1.05;
+	width: 60vw;
+}
+
+.hover {
+	font-style: normal !important;
+}
+
+
+
+
+
