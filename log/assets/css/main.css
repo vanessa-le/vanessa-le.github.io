@@ -5,12 +5,17 @@ body {
 	hyphens: auto;
 }
 
+a {
+	text-decoration: none;
+	text-decoration-color: blue;
+}
+
 a:hover {
-	font-style: italic;
+	text-decoration: underline;
 }
 
 a:active {
-	font-style: italic;
+	text-decoration: underline;
 	color: purple;
 }
 
@@ -31,13 +36,13 @@ i {
 	  margin-bottom: 2vh;
 }
 
-.container .stack {
+.article.stack {
 	  padding: 0vw 32vw;
 	  margin-bottom: 2vh;
 }
 
 .margin-vertical {
-	margin-bottom: 4vh;
+	margin: 6vh 0;
 }
 
 .header {
