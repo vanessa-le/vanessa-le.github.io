@@ -1,26 +1,31 @@
 body {
 	font-family: monospace;
-	font-size: 1.2vw;
+	font-size: 1vw;
 	background-color: cornsilk;
 	hyphens: auto;
+	line-height: 1.1em;
 }
 
 a {
 	text-decoration: none;
-	text-decoration-color: blue;
+	color: blue;
 }
 
 a:hover {
-	text-decoration: underline;
+	color: lightcoral;
 }
 
 a:active {
-	text-decoration: underline;
-	color: purple;
+	color: blue;
 }
 
 i {
 	font-style: italic;
+}
+
+.caption {
+	font-size: 0.9vw;
+	padding-bottom: 2vh;
 }
 
 .pad {
@@ -42,7 +47,11 @@ i {
 }
 
 .margin-vertical {
-	margin: 6vh 0;
+	margin: 8vh 0;
+}
+
+.pad-bottom {
+	padding-bottom: 6vh;
 }
 
 .header {
@@ -59,6 +68,15 @@ i {
 	display: block;
 	float: left;
 	text-align: left;
+	bottom: 1.2vh;
+	z-index: 3;
+}
+
+.footer2 {
+	position: fixed;    
+	display: block;
+	float: right;
+	text-align: right;
 	bottom: 1.2vh;
 	z-index: 3;
 }
@@ -96,18 +114,13 @@ i {
   visibility: hidden;
   position: absolute;
   left: 52vw;
-  top: 30vh;
+  top: 24vh;
   transform: translate(0, 10px);
   background-color: white;
   padding: 0.5rem;
   border: 0.5px solid black;
   max-width: 18vw;
   mix-blend-mode: normal;
-}
-
-.link {
-	color: blue;
-	text-decoration: underline;
 }
 
 .popover__content:before {
@@ -137,12 +150,6 @@ i {
 } 	
 
 /*Experiment page*/
-
-.description {
-	margin-top: 60px;
-	line-height: 1.05;
-	width: 60vw;
-}
 
 .hover {
 	font-style: normal !important;
